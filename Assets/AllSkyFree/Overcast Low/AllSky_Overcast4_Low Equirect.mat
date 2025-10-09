@@ -58,7 +58,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Exposure: 0.7
-    - _Rotation: 131.45403
+    - _Rotation: 127.201126
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Tint: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 0.5}
