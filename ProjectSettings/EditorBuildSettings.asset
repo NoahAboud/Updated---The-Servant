@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Roshan Scene.unity
+    guid: c2c2a7b8e61dfff48ad9a5f4d0f1c808
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Scenes/Noah Scene.unity
+    guid: 818d4d2df5700ab42b09cb43ce339fe6
+  - enabled: 0
+    path: Assets/Inventory.unity
+    guid: 0f14c9592f1b2034d868498d7f9644bc
   m_configObjects: {}

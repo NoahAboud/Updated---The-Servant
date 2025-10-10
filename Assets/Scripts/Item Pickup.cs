@@ -2,29 +2,15 @@ using UnityEngine;
 
 public class ItemPickup : MonoBehaviour
 {
-    public Item item;
-    public int amount = 1;
+    public Item item; // Drag your KeyItem here in Inspector
 
     private void OnTriggerEnter(Collider other)
     {
         Inventory inventory = other.GetComponent<Inventory>();
         if (inventory != null)
         {
-            if (inventory.AddItem(item, amount))
-            {
-                Destroy(gameObject);
-            }
+            inventory.AddItem(item);
+            Destroy(gameObject); // remove the key from the scene
         }
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
