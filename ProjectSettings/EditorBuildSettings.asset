@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: de09487d5461f9f4998f0e1876d8644f
   - enabled: 1
+    path: Assets/Scenes/INTRO_SCENE.unity
+    guid: e681e8a8efab3c54ba84e9c325592a6e
+  - enabled: 1
+    path: Assets/Scenes/Cutscene.unity
+    guid: d20eb2bd9cf0f1d489baefc392900ced
+  - enabled: 1
     path: Assets/Scenes/Noah Scene.unity
     guid: 818d4d2df5700ab42b09cb43ce339fe6
   m_configObjects: {}
